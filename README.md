@@ -11,7 +11,7 @@ This challenge require to perform **binary classification**.
 
 ## Dataset Description
 
-There is an anonymized dataset containing numeric feature variables, the binary `target` column, and a string `ID_code column.
+There is an anonymized dataset containing numeric feature variables, the binary `target` column, and a string `ID_code` column.
 The task is to predict the value of `target` column in the test set.
 
 ### File descriptions
