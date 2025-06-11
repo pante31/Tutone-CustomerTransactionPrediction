@@ -9,11 +9,16 @@ This challenge require to perform **binary classification**.
 
 ## Installation and startup
 
+All the code is contained inside a single _python notebook_ that can be opened directly to see the output, or it can be run using **_Kaggle_** (this allows a direct access to data without downloading them).
+
 ### Data
 
 All data are used directly from the Kaggle platform by following the instructions below:
+  - Open the right window using the **bottom arrow**
+  - At the beginning, select "_+ Add Input_"
+  -  Look for "_Santander Customer Transaction Prediction_"
+  -  Load the data
 
-1. TO DO
 
 ## License
 
