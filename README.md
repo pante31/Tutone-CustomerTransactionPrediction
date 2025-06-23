@@ -20,6 +20,16 @@ The task is to predict the value of `target` column in the test set.
   - **test.csv** - the test set. The test set contains some rows which are not included in scoring.
   - **sample_submission.csv** - a sample submission file in the correct format.
 
+## Results
+
+After trying three different models, these are the final results:
+- The model that delivered best **accuracy** [_**0.92**_]: `GaussianNB(var_smoothing = 1e-08)`
+- The model that delivered best **precision** [_**0.85**_]: `GaussianNB(var_smoothing = 0.001)`
+- The model that delivered best **recall** [_**0.68**_]: `GaussianNB(var_smoothing = 1e-09)`
+- The model that delivered best **f1_score** [_**0.72**_]: `GaussianNB(var_smoothing = 1e-09)`
+
+Also the other two models (`DecisionTreeClassifier`, `KNeighborsClassifier`) obtained decent result, but the best one, considering all scorings, is the `GaussianNB`.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
